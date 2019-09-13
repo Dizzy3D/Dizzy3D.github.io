@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css">
+		::-webkit-scrollbar-track
+		{
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+			background-color: #3CBCF7;
+		}
+
+		::-webkit-scrollbar
+		{
+			width: 6px;
+			background-color: #3CBCF7;
+		}
+
+		::-webkit-scrollbar-thumb
+		{
+			background-color: #0277BD;
+		}
+	body {
+  	scroll-behavior: smooth;
+  	background: url(background.svg) repeat-y;
+  	width: 100%;
+  	height: 100%;
+
+  	animation: start 3s 1;
+	}
+	.social-btn{
+		font-size: 55px;
+		color: #fff;
+		margin: 10px;
+		transition: all .3s;
+		position: relative;
+		opacity: .8;
+	}
+	.social-btn:hover {
+		opacity: 1;
+		font-size: 60px;
+		margin-top: -5px;
+	}
+	.patreon {
+		background: #E85B46 !important;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	.lowline {
+		line-height: 1 !important;
+		font-size: 26px;
+	}
+	.label {
+		font-size: 100px;
+		line-height: .9;
+		word-wrap: break-word;
+	}
+	@media (max-width: 320px) {
+		.label {
+			font-size: 80px;
+		}
+	}
+	.dvider {
+		margin-top: 100px; 
+	}
+	.dvider-sm {
+		margin-top: 50px;
+	}
+	.downarrow {
+		opacity: .6;
+		font-size: 100px;
+		text-align: center;	
+		color: #fff;
+		animation: fly 2s infinite;
+	}
+	@keyframes fly {
+		from {margin-top: 75px;margin-bottom: -75px;animation-timing-function: ease-out;}
+		50% {margin-top: 45px;margin-bottom: -45px;animation-timing-function: ease-in;}
+		to {margin-top: 75px;margin-bottom: -75px;animation-timing-function: ease-out;}
+	}
+	@keyframes start {
+		from {opacity: 0;animation-timing-function: ease-out;}
+		to {opacity: 1;animation-timing-function: ease-in;}
+	}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<meta charset="UTF-8">
+	<title>Dizzy 3D</title>
+</head>
+<body class="light-blue lighten-2">
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 xl12 valign-wrapper center" style="height: 100vh">
+					<div class="center" style="width: 100%">
+						<h1 class="white-text bold label">DIZZY <span class="light-blue-text text-darken-3">3D</span></h1>
+						<h5 class="white-text lowline bold">3D Artist</h4>
+						<a href="https://www.patreon.com/join/dizzy1g?" class="waves-effect waves-light btn patreon hoverable dvider-sm">Support me on <i class="fab fa-patreon"></i></a>
+						<div class="downarrow"><i class="fas fa-arrow-down"></i></div>
+					</div>
+					<br>
+				</div>
+				<div class="col s12 m12 xl12 valign-wrapper" style="height: 100vh" name="details">
+					<div style="width: 100%">
+						<div class="center">
+							<div class="col s8 m4 offset-m4 l4 offset-l4 xl2 offset-xl5 offset-s2">
+								<img class="circle" style="width: 100%" src="https://static.tildacdn.com/tild3162-6136-4162-b263-353766333438/Screenshot_1.png">
+								<h6 class="white-text bold">Dizzy#<span class="light-blue-text text-darken-3">1190</span></h6>
+								<h6 class="white-text">Discord</h6>
+							</div>
+						</div>
+						<div class="center col s12">
+							<a href="https://www.instagram.com/av_dizzy/" class="social-btn"><i class="fab fa-instagram"></i></a>
+							<a href="https://vk.com/dizzy_r34" class="social-btn"><i class="fab fa-vk"></i></a>
+							<a href="https://twitter.com/3D_Dizzy" class="social-btn"><i class="fab fa-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
